@@ -6,7 +6,6 @@ A Model Context Protocol server that provides read-only access to Mysql database
 
 ### Components
 
-```txt
 ### Tools
 
 - **query**
@@ -23,8 +22,6 @@ The server provides schema information for each table in the database:
   - Includes column names and data types
   - Automatically discovered from database metadata
 
-
-```
 
 ### Install
 ```bash
