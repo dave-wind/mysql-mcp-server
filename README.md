@@ -1,4 +1,4 @@
-# @dave-wind/mysql-mcp-server
+# @davewind/mysql-mcp-server
 
 
 A Model Context Protocol server that provides read-only access to Mysql databases. This server enables LLMs to inspect database schemas and execute read-only queries.
@@ -25,7 +25,7 @@ The server provides schema information for each table in the database:
 
 ### Install
 ```bash
-npm install @dave-wind/mysql-mcp-server -g
+npm install @davewind/mysql-mcp-server -g
 ```
 
 ## Configuration
@@ -38,7 +38,7 @@ MCP settings configuration file:
   "mcpServers": {
     "mysql": {
       "command": "npx",
-      "args": ["-y", "@dave-wind/mysql-mcp-server", "mysql://user:password@localhost:port/database"],
+      "args": ["-y", "@davewind/mysql-mcp-server", "mysql://user:password@localhost:port/database"],
     }
   }
 }
@@ -54,6 +54,14 @@ MCP settings configuration file:
   }
 ```
 
+
+### Env
+
+```js
+
+node v18 +
+
+```
 
 ## License
 

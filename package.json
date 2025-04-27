@@ -1,6 +1,6 @@
 {
-  "name": "@dave-wind/mysql-mcp-server",
-  "version": "1.0.0",
+  "name": "@davewind/mysql-mcp-server",
+  "version": "0.2.0",
   "description": "A Model Context Protocol server for MySQL",
   "type": "module",
   "bin": {
