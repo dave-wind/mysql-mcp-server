@@ -1,5 +1,6 @@
 # @davewind/mysql-mcp-server
 
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/dave-wind/mysql-mcp-server)](https://archestra.ai/mcp-catalog/dave-wind__mysql-mcp-server)
 
 A Model Context Protocol server that provides read-only access to Mysql databases. This server enables LLMs to inspect database schemas and execute read-only queries.
 
