@@ -24,7 +24,7 @@ function parseMySQLUrl(url: string) {
     const config = {
       host: parsedUrl.hostname,
       user: parsedUrl.username,
-      password: parsedUrl.password,
+      password: decodeURIComponent(parsedUrl.password),
       database: parsedUrl.pathname.slice(1), // 移除前导'/'
       port: parsedUrl.port ? parseInt(parsedUrl.port, 10) : 3306,
     };
